@@ -33,7 +33,7 @@ var intervalId = setInterval(function() {
         parentElement1.insertAdjacentHTML('afterbegin', '<li class="bpx-player-ctrl-playbackrate-menu-item" data-value="4.0">4.0x</li>');
     }
 
-}, 100); // 每隔100毫秒执行一次搜索
+}, 50); // 每隔50毫秒执行一次搜索
 
     };})();
 
