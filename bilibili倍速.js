@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili 倍速
 // @license MIT
-// @version      0.4.1
+// @version      0.4.1.1
 // @description  按钮倍速
 // @author       dfdy-yyc
 // @match           https://www.bilibili.com/video/*
@@ -18,7 +18,6 @@
 
 (function() {
     'use strict';
-    console.log('123')
     window.onload=function() {
 var intervalId = setInterval(function() {
     var parentElement = document.querySelector('.bpx-player-ctrl-playbackrate-menu');
